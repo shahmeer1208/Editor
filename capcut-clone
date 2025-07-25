@@ -1,0 +1,8 @@
+/capcut-clone
+├── index.html
+├── styles.css
+├── editor.js
+├── filters.js
+└── assets/
+    ├── sample.mp4
+    └── filter-thumbs/

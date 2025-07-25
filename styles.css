@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #121212;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.editor {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-container {
+    background: black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#videoPreview {
+    width: 100%;
+    display: block;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.toolbar button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.filter-panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.filter {
+    text-align: center;
+    cursor: pointer;
+}
+
+.filter-thumb {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid transparent;
+}
+
+.filter.active .filter-thumb {
+    border-color: #fe2c55;
+}
